@@ -2,3 +2,24 @@ nav{
     display: flex;
     justify-content: center;
 }
+h1{
+    margin: 3rem;
+   
+}
+p{
+    display: flex;
+    justify-content: center;
+    margin: 3rem;
+}
+
+main{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+img{
+    display: flex;
+    flex-direction: row-reverse;
+   
+    border-radius: 50%;
+  
+}
