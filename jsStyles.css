@@ -1,10 +1,15 @@
 nav{
     display: flex;
     justify-content: center;
+    justify-content: space-around;
+    padding: 2rem;
+    background-color: rgb(18, 136, 136);
+    border-radius: 10%;
 }
+
 h1{
-    margin: 3rem;
-   
+margin:3rem;
+padding: 3rem;
 }
 p{
     display: flex;
@@ -14,12 +19,18 @@ p{
 
 main{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aqua;
+    border-radius: 10%;
+    
+}
+body{
+    background-color: rgb(84, 152, 152);
 }
 
 img{
     display: flex;
-    flex-direction: row-reverse;
-   
+    flex-direction: row;
+ margin-left: 40rem;
     border-radius: 50%;
   
 }
