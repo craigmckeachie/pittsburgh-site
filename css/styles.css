@@ -1,15 +1,42 @@
-body {
+* {
+  box-sizing: border-box;
+}
+
+main {
+  padding-inline: 10rem;
 }
 
 .hero {
   display: flex;
+  gap: 2rem;
 }
 
 p {
   column-count: 2;
 }
 
-#gingerbread-man{
-    aspect-ratio: 9/16;
-    height: 50%;
+#gingerbread-man {
+  border-radius: 0.2rem;
+  width: 320px;
+}
+
+.styled-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #3498db;
+  color: #fff;
+  border: 2px solid #2980b9;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover effect */
+.styled-button:hover {
+  background-color: #2980b9;
+  color: #fff;
 }
