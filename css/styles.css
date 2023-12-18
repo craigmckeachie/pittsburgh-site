@@ -1,7 +1,15 @@
-body{
-    
+body {
 }
 
-p{
-    column-count: 3;
+.hero {
+  display: flex;
+}
+
+p {
+  column-count: 2;
+}
+
+#gingerbread-man{
+    aspect-ratio: 9/16;
+    height: 50%;
 }
