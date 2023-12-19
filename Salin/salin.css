@@ -5,7 +5,7 @@ ul {
 }
 
 header {
-  background-color: #333;
+  background-color: transparent;
   padding: 25px 0;
 }
 
@@ -18,7 +18,7 @@ nav ul {
 
 nav a {
   text-decoration: none;
-  color: white;
+  color: black;
   font-weight: bold;
   padding: 25px;
 }
@@ -30,15 +30,15 @@ main {
   justify-content: center;
   align-items: center;
   background-color: #f4f4f4;
-  padding: 20px;
-}
-img{
-    background-color: #007bff;
-    border-radius: 75px;
-    width: 150px;
-
+  padding: 10px;
+  height: 550px;
 }
 
+img {
+  mix-blend-mode: multiply;
+  width: 250px;
+  border-radius: 125px;
+}
 
 h2 {
   color: #007bff;
