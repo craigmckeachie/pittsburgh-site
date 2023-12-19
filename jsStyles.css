@@ -1,50 +1,49 @@
-nav{
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
-    padding: 2rem;
-    background-color: rgb(18, 136, 136);
-    border-radius: 2%;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+nav {
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  padding: 2rem;
+  background-color: rgb(74, 78, 78);
+  border-radius: 2%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-h1{
-margin:3rem;
-padding: 3rem;
+h1 {
+  margin: 3rem;
+  padding: 3rem;
 }
-p{
-    display: flex;
-    justify-content: center;
-    margin: 3rem;
-}
-
-main{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: aqua;
-    border-radius: 10%;
-    
-}
-body{
-    background-color: rgb(84, 152, 152);
+p {
+  display: flex;
+  justify-content: center;
+  margin: 3rem;
 }
 
-img{
-    display: flex;
-    flex-direction: row;
- margin-left: 40rem;
-    border-radius: 50%;
-  
+main {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: rgb(112, 122, 122);
+  border-radius: 10%;
+}
+body {
+  background-color: rgb(105, 147, 147);
 }
 
-h3{
-    margin-top:3rem;
-    margin-left: 3rem;
-    margin-bottom: 0rem;
-    padding: 3rem;  
+img {
+  display: flex;
+  flex-direction: row;
+  margin-left: 40rem;
+  border-radius: 10%;
+  padding: 3rem;
 }
 
-div{
-    display:flex;
-    flex-direction: column;
-    margin-right: 40rem;
+h3 {
+  margin-top: 3rem;
+  margin-left: 3rem;
+  margin-bottom: 0rem;
+  padding: 3rem;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  margin-right: 40rem;
 }
