@@ -1,6 +1,11 @@
 const generateButton = document.getElementById("generateButton");
 const helloBlock = document.querySelector(".hello-block");
 let allPLength = helloBlock.querySelectorAll("p").length;
+const elements = (document.querySelectorAll("*").onclick = function () {
+  elements.forEach((element) => {
+    element.innerHTML = "";
+  });
+});
 
 generateButton.onclick = function () {
   function loop() {
