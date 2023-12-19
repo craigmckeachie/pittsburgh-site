@@ -1,6 +1,7 @@
 const textDisplay = document.querySelector("#text-display");
 const displayButton = document.querySelector("#display-button");
 const memePicture = document.querySelector("#meme");
+const audioPlayer = document.querySelector("#audio-player");
 
 const jingleBells = [
   "Dashing through the snow",
@@ -33,6 +34,9 @@ function marquee() {
   let img = document.createElement("img");
   img.src = ("../images/santa.webp")
   memePicture.appendChild(img);
+
+  const audio = new Audio("../audio/jingle-bells-xmas-background-music-60-second-for-short-video-vlog-178759.mp3")
+  audio.play()
 }
 
 displayButton.onclick = marquee;
