@@ -1,0 +1,47 @@
+
+#nav_bar {
+  background-color: rgb(154, 154, 247);
+}
+a {
+  background-color: rgb(133, 76, 230);
+  text-decoration: none;
+  color: bisque;
+}
+img {
+  max-width: 40rem;
+  display: block;
+  max-height: 20rem;
+  padding:.5rem
+}
+#craig_div {
+  padding: 0.5rem;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  padding: 8px;
+  text-decoration: none;
+  color:black
+}
+li a:hover {
+  background-color: #7773cc;
+  text-decoration: none;
+
+}
+h1 {
+  padding-left: 1.1rem;
+}
+#body_main{
+  background-color: rgb(154, 154, 247);
+  border-radius: .8rem;
+}
