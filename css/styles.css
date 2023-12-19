@@ -2,17 +2,36 @@
   box-sizing: border-box;
 }
 
+body {
+  margin: 0;
+}
 main {
-  padding-inline: 10rem;
+  /* padding-inline: 10rem;
+  padding-block: 5rem; */
+  /* background-image: linear-gradient(to right top, #f9f4f3, #d9bfb9, #b88d81, #945e4c, #6d311a); */
+  /* background-image: linear-gradient(to right top, #f9f4f3, #d8ccc9, #b7a5a0, #968079, #765d53); */
 }
 
 .hero {
+  padding: 5rem;
   display: flex;
   gap: 2rem;
+  background-color: #f9f4f3;
+  color: #765d53;
+  background-image: linear-gradient(
+    to left top,
+    /* #765d53, */ /* #8e776f, */ /* #a6928c, */ /* #bfafaa, */ /* #d8ccc9, */ #e4dad9,
+    #efe8e8,
+    #fbf7f7,
+    #fcf9fa,
+    #fdfbfc,
+    #fefdfe,
+    #ffffff
+  );
 }
 
 p {
-  column-count: 2;
+  column-count: 3;
 }
 
 #gingerbread-man {
@@ -28,15 +47,15 @@ p {
   text-align: center;
   text-decoration: none;
   cursor: pointer;
-  background-color: #3498db;
+  background-color: #5f65a3;
   color: #fff;
-  border: 2px solid #2980b9;
+  border: 2px solid #7b84d1;
   border-radius: 5px;
   transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 /* Hover effect */
 .styled-button:hover {
-  background-color: #2980b9;
+  background-color: #7b84d1;
   color: #fff;
 }
