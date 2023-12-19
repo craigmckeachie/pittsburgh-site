@@ -1,0 +1,16 @@
+body{
+    background-color: blanchedalmond;
+}
+
+img{
+    padding-left: 45rem;
+}
+h1{
+display: flex;
+justify-content: center;
+}
+
+p{
+    padding-left: 20rem;
+    padding-right: 20rem;
+}
