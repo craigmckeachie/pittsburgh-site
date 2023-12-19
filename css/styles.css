@@ -1,7 +1,19 @@
-body{
-    
+
+
+p {
+  column-count: 3;
 }
 
-p{
-    column-count: 3;
+body {
+   text-align: center;
+  background: url("images/fun.png");
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  max-width: 50%;
+  display: block;
+  margin: 0 auto;
 }
