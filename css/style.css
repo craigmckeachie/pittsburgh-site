@@ -15,6 +15,10 @@ body {
     Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
+footer {
+  margin-top: 2rem;
+}
+
 .welcome-block {
   font-size: 2rem;
   text-align: center;
@@ -26,7 +30,7 @@ img {
 }
 
 .img-block {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 4rem;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 4rem;
 }
