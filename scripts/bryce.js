@@ -1,6 +1,6 @@
 "use strict";
 
-const bryceImgs = ["Frankie.jpg", "Beethoven.jpg", "emmyBeethoven.jpg", "FrankieLeaf.jpg", "TimmyEmmy.jpg"];
+const bryceImgs = ["Frankie.jpg", "beethovenHalloween.jpg", "Beethoven.jpg", "emmyBeethoven.jpg", "FrankieLeaf.jpg", "TimmyEmmy.jpg"];
 let imgIndex = 0;
 
 function init() {
