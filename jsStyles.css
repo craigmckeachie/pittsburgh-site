@@ -9,8 +9,7 @@ nav {
 }
 
 h1 {
-    display: flex;
-    justify-content: center;
+  display: flex;
   margin: 3rem;
   padding: 3rem;
 }
@@ -28,11 +27,13 @@ main {
 }
 body {
   background-color: rgb(105, 147, 147);
+  padding: 3rem;
 }
 
 img {
   display: flex;
-  justify-content: center;
+  float: right;
+  margin: 3rem;
   border-radius: 10%;
   padding: 3rem;
 }
