@@ -1,3 +1,8 @@
+<<<<<<< HEAD
+p{
+    column-count: 3;
+}
+=======
 * {
   box-sizing: border-box;
 }
@@ -47,3 +52,4 @@ p {
   background-color: #7b84d1;
   color: #fff;
 }
+>>>>>>> 5a5d110b002127da05ebcd9b1341c1149f8951ab
