@@ -14,23 +14,52 @@
 
   <style>
     body {
-      background-color: rgb(168, 107, 224);
+      background-color: rgb(178, 166, 189);
     }
     #nav_bar {
-      background-color: rgb(83, 83, 204);
+      background-color: rgb(100, 100, 186);
     }
     a {
-      background-color: rgb(0, 0, 0);
-      border-radius: 0.2rem;
+      background-color: rgb(133, 76, 230);
       text-decoration: none;
       color: bisque;
-      height: 100%;
+    }
+    img {
+      max-width: 40rem;
+      border-radius: 0.5rem;
+      display: block;
     }
     #craig_div {
-      padding: 1rem;
-      height: 50px;
-      width: 50px;
-      border: 1px;
+      padding: 0.5rem;
+    }
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    li {
+      float: left;
+    }
+
+    li a {
+      display: block;
+      padding: 8px;
+      background-color: #8c87ed;
+      text-decoration: none;
+    }
+    li a:hover {
+      background-color: #7773cc;
+      text-decoration: none;
+  
+    }
+    #anime_image {
+      border-radius: 0.5rem;
+      padding: 0.6rem;
+    }
+    h1 {
+      padding-left: 1.1rem;
     }
   </style>
 
@@ -38,14 +67,30 @@
     <h1>Hi im Talib</h1>
     <header>
       <nav class="container-fluid" id="nav_bar">
-        <a href="index.html">Home</a>
-        <a href="">filler</a>
-        <a href="fiiller"></a>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="">Craig-facts</a></li>
+          <li><a href="">Talib-facts</a></li>
+          <li><a href="">CRYPTO SCAMS</a></li>
+          <li><a href="">FREE RAM</a></li>
+          <li><a href="">Games</a></li>
+          <li><a href="">No Games</a></li>
+        </ul>
       </nav>
     </header>
     <main>
-      <div id="craig_div"><img src="https://i.imgflip.com/89rjk7.jpg" alt="craig"</div>
+      <div class="float-md-left" id="craig_div">
+        <img src="https://i.imgflip.com/89rjk7.jpg" alt="craig" />
+        <h3>My Wonderful Instructor Craig</h3>
+      </div>
+      <div id="anime_image" class="float-md-right">
+        <img
+          src="https://dw9to29mmj727.cloudfront.net/properties/2016/3707-Thumb_Zom100Anime_400x320.jpg"
+          alt="ZOM 100 Cover Image"
+        />
+      </div>
+
+      <footer></footer>
     </main>
-    <footer></footer>
   </body>
 </html>
