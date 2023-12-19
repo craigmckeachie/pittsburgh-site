@@ -4,7 +4,8 @@ nav{
     justify-content: space-around;
     padding: 2rem;
     background-color: rgb(18, 136, 136);
-    border-radius: 10%;
+    border-radius: 2%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 h1{
@@ -33,4 +34,17 @@ img{
  margin-left: 40rem;
     border-radius: 50%;
   
+}
+
+h3{
+    margin-top:3rem;
+    margin-left: 3rem;
+    margin-bottom: 0rem;
+    padding: 3rem;  
+}
+
+div{
+    display:flex;
+    flex-direction: column;
+    margin-right: 40rem;
 }
