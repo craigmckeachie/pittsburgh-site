@@ -1,0 +1,38 @@
+body, h1, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set a background color for the body */
+  body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Style the main content area */
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style links */
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
