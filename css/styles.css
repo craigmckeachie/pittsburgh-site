@@ -5,12 +5,6 @@
 body {
   margin: 0;
 }
-main {
-  /* padding-inline: 10rem;
-  padding-block: 5rem; */
-  /* background-image: linear-gradient(to right top, #f9f4f3, #d9bfb9, #b88d81, #945e4c, #6d311a); */
-  /* background-image: linear-gradient(to right top, #f9f4f3, #d8ccc9, #b7a5a0, #968079, #765d53); */
-}
 
 .hero {
   padding: 5rem;
@@ -18,16 +12,7 @@ main {
   gap: 2rem;
   background-color: #f9f4f3;
   color: #765d53;
-  background-image: linear-gradient(
-    to left top,
-    /* #765d53, */ /* #8e776f, */ /* #a6928c, */ /* #bfafaa, */ /* #d8ccc9, */ #e4dad9,
-    #efe8e8,
-    #fbf7f7,
-    #fcf9fa,
-    #fdfbfc,
-    #fefdfe,
-    #ffffff
-  );
+  background-image: linear-gradient(to left top, #efe8e8, #fbf7f7, #fcf9fa, #fdfbfc, #fefdfe, #ffffff);
 }
 
 p {
