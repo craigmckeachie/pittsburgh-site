@@ -1,0 +1,95 @@
+body, h1, p {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Set a background color for the body */
+  body {
+    background-color: #f4f4f4;
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Style the header */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  /* Style the main content area */
+  main {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Style links */
+  a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    font-size: 18px;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans",
+    "Helvetica Neue", sans-serif;
+  margin: 0;
+  line-height: 1.25em;
+}
+
+.hero {
+  padding: 5rem;
+  display: flex;
+  gap: 2rem;
+  color: #6a5e59;
+  background: rgb(251, 243, 247);
+  background: radial-gradient(circle, rgba(251, 243, 247, 1) 29%, rgba(226, 234, 245, 0.9122023809523809) 80%);
+}
+
+p {
+  column-count: 3;
+}
+
+#gingerbread-man {
+  border-radius: 0.5rem;
+  width: 320px;
+}
+
+.styled-button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  background-color: #5f65a3;
+  color: #fff;
+  border: 2px solid #7b84d1;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+/* Hover effect */
+.styled-button:hover {
+  background-color: #7b84d1;
+  color: #fff;
+}
+
